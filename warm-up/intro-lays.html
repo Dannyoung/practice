@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-hans">
+<head>
+	<meta charset="UTF-8">
+	<title>IFE-乐事</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/intro-lays.css">
+</head>
+<body>
+	<div class="wrap">
+		<div class="left-area">
+			<div class="intro">
+				<header class="header">
+					<div class="avatar">
+						<img src="img/lays.png" alt="avatar">
+					</div>
+					<p class="name">乐事</p>
+					<span>"HELLO WORLD!"</span>
+				</header>
+				<ul class="social">
+					<li><a class="github" target="_blank" title="github" href="http://github.com/leeween">github</a></li>
+					<li><a class="weibo" target="_blank" title="weibo" href="http://weibo.com/leshiv5">weibo</a></li>	
+				</ul>
+			</div>
+		</div>
+		<div class="right-area">
+			<div class="intro">
+				<header class="header">
+					<div class="avatar">
+						<img src="img/lays.png" alt="avatar">
+					</div>
+					<p class="name">乐事</p>
+					<span>"HELLO WORLD!"</span>
+				</header>
+				<span id="menu"></span>
+				<ul class="social">
+					<li><a class="github" target="_blank" title="github" href="http://github.com/leeween">github</a></li>
+					<li><a class="weibo" target="_blank" title="weibo" href="http://weibo.com/leshiv5">weibo</a></li>	
+				</ul>
+			</div>
+			<div class="container" id="content">
+				<div class="title">
+					<h1>大标题大标题大标题</h1>
+					<p>xiaobiaotixiaobiaotixiaobiaotixiaobiaoti</p>
+				</div>
+				<div class="text">
+					<p>neirongneirongneirongneirongneirongneirongneirongneirongneirongneirongneirongneirongneirongneirongneirongneirongneirongneirongneirongneirongneirongneirongneirongneirongneirong</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script>
+		window.onload = function(){
+			var oMenu = document.getElementById("menu");
+			var oContent = document.getElementById("content");
+
+			oMenu.addEventListener("click", function(){
+				if(oContent.className == "container"){
+					oContent.classList.add("show");
+				}else {
+					oContent.classList.remove("show");
+				}	
+			})
+		}
+	</script>
+</body>
+</html>
