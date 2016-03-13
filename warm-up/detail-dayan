@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-hans">
+    <meta charset="UTF-8">
+    <title>lfe-大雁</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/intro-lays.css">
+</head>
+<body>
+    <div class="wrap">
+        <div class="left-area">
+            <div class="intro">
+                <header class="header">
+                    <div class="avatar">
+                        <img src="images/photo.png" alt="avatar">
+                    </div>
+                    <p class="name">大雁</p>
+                </header>
+                <!--ul class="social">
+                    <li>
+                        <a href="">主页</a>
+                    </li>
+                    <li>
+                        <a href="">所有文章</a>
+                    </li>
+                </ul-->
+                <ul class="social">
+                        <li><a title="github" class="github" href="https://github.com/Dannyoung/lfe" target="_blank">github</a></li>
+                        <li><a title="weibo" class="weibo" href="http://weibo.com/dayan2016" target="_blank">weibo</a></li>
+                        <li><a title="rss" class="rss" href="http://www.cnblogs.com/dannyoung/" target="_blank">博客园</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="right-area">
+            <div class="intro">
+                <header class="header">
+                    <div class="avatar">
+                        <img src="images/photo.png" alt="avatar">
+                    </div>
+                    <p class="name">大雁</p>
+                </header>
+                <ul class="social">
+                        <li><a title="github" class="github" href="https://github.com/Dannyoung/lfe" target="_blank">github</a></li>
+                        <li><a title="weibo" class="weibo" href="http://weibo.com/dayan2016" target="_blank">weibo</a></li>
+                        <li><a title="rss" class="rss" href="http://www.cnblogs.com/dannyoung/" target="_blank">rss</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container" id="content">
+            <div class="title">
+                <h1>学习计划</h1>
+            </div>
+            <div class="text">
+                <p>
+                    date:2016-03-13
+                    <br/>
+                    ===================================
+                    <br/>
+                    
+                </p>
+                <p>
+                    1.巩固html基础：通过不断地练习巩固
+                </p>
+                <p>
+                    2.学习javascript：通过阅读javascript红皮书学习
+                </p>
+                <p>
+                    3.使用javascript
+                </p>
+                <p>
+                4.学习js框架：通过队友之间分享的知识学习
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
